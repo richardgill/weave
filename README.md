@@ -6,17 +6,11 @@ Weave makes networking Docker containers easy. Containers will appear to be on o
 
 You can use the network just as if the containers were all
 plugged into the same network switch, with no need to configure port
-mappings, links, etc. Services provided by application containers on
-the weave network can be made accessible to the outside world,
-regardless of where those containers are running. Similarly, existing
-internal systems can be exposed to application containers irrespective
-of their location.
-
-![Weave Deployment](/docs/deployment.png?raw=true "Weave Deployment")
-
-Weave can traverse firewalls and operate in partially connected
+mappings, links, etc. Weave can traverse firewalls and operate in partially connected
 networks. Traffic can be encrypted, allowing hosts to be connected
 across an untrusted network.
+
+![Weave Deployment](/docs/deployment.png?raw=true "Weave Deployment")
 
 ## Installation
 

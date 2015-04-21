@@ -2,8 +2,9 @@
 
 [![Build Status](https://travis-ci.org/weaveworks/weave.svg?branch=master)](https://travis-ci.org/weaveworks/weave) [![Coverage Status](https://coveralls.io/repos/weaveworks/weave/badge.svg)](https://coveralls.io/r/weaveworks/weave)
 
-Weave creates a virtual network that connects Docker containers
-deployed across multiple hosts.
+Weave makes networking Docker containers easy. Containers will appear to be on one network, even if they're not.
+
+
 
 ![Weave Virtual Network](/docs/virtual-network.png?raw=true "Weave Virtual Network")
 

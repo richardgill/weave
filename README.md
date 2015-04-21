@@ -32,6 +32,7 @@ Weave is currently a commandline wrapper for docker. It supports all the docker 
 
     #Ping container A from inside container B
     docker exec $B ping 10.2.1.1
+    
     PING 10.2.1.2 (10.2.1.2): 48 data bytes
     --- 10.2.1.2 ping statistics ---
     1 packets transmitted, 1 packets received, 0% packet loss

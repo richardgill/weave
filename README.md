@@ -16,20 +16,22 @@ Weave is currently a commandline wrapper for docker. It supports all the docker 
 
 ###Example
 
-    hosta# weave launch
+    ssh hosta
+    
+    weave launch
     
     #Start container A with ip address: 10.2.1.1
-    hosta# A=$(weave run 10.2.1.1/24 -t -i ubuntu)
+    A=$(weave run 10.2.1.1/24 -t -i ubuntu)
     
-    ####SSH to Host B####
+    ssh hostb
     
-    hostb# weave launch hosta
+    weave launch hosta
     
     #Start container B with ip address: 10.2.1.2
-    hostb# B=$(weave run 10.2.1.2/24 -t -i ubuntu)
+    B=$(weave run 10.2.1.2/24 -t -i ubuntu)
 
     #Ping container A from inside container B
-    hostb# docker exec $B ping 10.2.1.1
+    docker exec $B ping 10.2.1.1
     PING 10.2.1.2 (10.2.1.2): 48 data bytes
     --- 10.2.1.2 ping statistics ---
     1 packets transmitted, 1 packets received, 0% packet loss

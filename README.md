@@ -10,6 +10,8 @@ mappings, links, etc. Weave can traverse firewalls and operate in partially conn
 networks. Traffic can be encrypted, allowing hosts to be connected
 across an untrusted network.
 
+Weave is currently a commandline wrapper for docker. It supports all the docker commands as well as some weave specific commands.
+
 ![Weave Deployment](/docs/deployment.png?raw=true "Weave Deployment")
 
 ## Installation

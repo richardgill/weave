@@ -16,8 +16,12 @@ Weave is currently a commandline wrapper for docker. It supports all the docker 
 
 ## Installation
 
-Ensure you are running Linux (kernel 3.5 or later) and have Docker
-(version 0.9.1 or later) installed. Then install weave with
+###Requirements
+
+* Linux with kernel >= 3.5
+* Docker >= 0.9.1
+
+###Install
 
     sudo wget -O /usr/local/bin/weave \
       https://github.com/weaveworks/weave/releases/download/latest_release/weave
@@ -34,7 +38,7 @@ it locally to control a weave network on a remote host.
   <img src="/docs/hello-screencast.png" />
 </a>
 
-## Example
+# Example
 
 Say you have docker running on two hosts, accessible to each other as
 `$HOST1` and `$HOST2`, and want to deploy an application consisting of
